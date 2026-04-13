@@ -1,0 +1,25 @@
+Data Types -> Define the type of data stored in variable.
+
+1. Primitive -> In-built and fundamental data types and store same type of data.
+        a. byte - 1 byte
+        b. short - 2 byte
+        c. int - 4 byte
+        d. long - 8 byte
+        e. float - 4 byte
+        f. double - 8 byte
+        g. char - 2 byte
+        h. boolean - 1 byte
+
+
+2. Non-Primitive -> Store complex data and defined using primitive data types and stores multiple value.
+        a. String
+        b. Arrays
+        c. Classes
+        d. Interfaces
+
+
+TYPE CASTING - Changing one data type into another.
+    a. Implicit - Done by compiler or interpretor  not manually. (Automatically)
+    b. Explicit - Done by user or developer manually. (Forcefully)
+        --> dataType variableName = (dataType) variableName;
+        --> int c = (int) b;    // Here b is double.
